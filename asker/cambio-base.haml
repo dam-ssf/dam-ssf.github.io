@@ -38,14 +38,13 @@
       %case 1001010111
     %ask
       %text Convierte el número binario N1 a decimal
-      %answer{type: 'formula'} bin2dec(N1)
+      %answer{type: 'formula'} N1.to_s.to_i(2)
     %ask
       %text Convierte el número binario N1 a octal
-      %answer{type: 'formula'} bin2dec(N1).to_s(8)
+      %answer{type: 'formula'} N1.to_s.to_i(8)
     %ask
       %text Convierte el número binario N1 a hexadecimal
-      %answer{type: 'formula'} bin2dec(N1).to_s(16)
-
+      %answer{type: 'formula'} N1.to_s.to_i(16)
 
   %problem
     %desc Cambio de octal a otra base
