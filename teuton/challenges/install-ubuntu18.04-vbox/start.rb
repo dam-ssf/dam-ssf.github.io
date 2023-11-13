@@ -23,10 +23,10 @@ group "Install Ubuntu 18.04.1 LTS on a VBox virtual machine" do
   result.debug if debug
   expect "(sudo)"
 
-  target "Set IDP as computer name"
+  target "Set SSF as computer name"
   goto :host1, :exec => "hostname"
   result.debug if debug
-  expect /^IDP$/
+  expect /^SSF$/
 
   target "Set TimeZone to UTC+00:00 (Dublin, Edimburgh, Lisbon, London)"
   goto :host1, :exec => "timedatectl"
