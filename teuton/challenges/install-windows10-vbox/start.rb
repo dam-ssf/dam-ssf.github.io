@@ -29,10 +29,10 @@ group "Install Windows 10 on a VBox virtual machine" do
   # puts result.debug if debug
   # expect "Estado de la licencia: con licencia"
 
-  target "Set SSF as computer name"
+  target "Set SSF or IDP as computer name"
   goto :host1, :exec => "powershell -command $env:ComputerName"
   puts result.debug if debug
-  expect "SSF"
+  expect "IDP"
 
   target "Set TimeZone to UTC+00:00 (Dublin, Edimburgh, Lisbon, London)"
   goto :host1, :exec => "powershell -command (Get-TimeZone).Id"
