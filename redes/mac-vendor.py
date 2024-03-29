@@ -1,6 +1,7 @@
 import re
 import sys
 
+# extracted from https://gist.github.com/aallan/b4bb86db86079509e6159810ae9bd3e4
 vendors = """
 000000	Officially Xerox
 000001	SuperLAN-2U
