@@ -1,0 +1,22 @@
+#!/bin/bash
+mkdir media
+touch media/1x01-se_acerca_el_invierno.avi
+touch media/1x02-el_camino_real.avi
+mkdir media/documentales
+touch media/documentales/biografica-de-bill-gates.mp4
+touch media/documentales/codigo-linux.mp4
+mkdir media/peliculas
+touch media/peliculas/avatar.mkv
+touch media/peliculas/matrix-revolutions.avi
+mkdir media/series
+mkdir media/series/breaking-bad
+mkdir media/series/breaking-bad/t1
+touch media/series/breaking-bad/t1/1x01-piloto.avi
+touch media/series/breaking-bad/t1/1x02-el_gato_esta_en_la_bolsa.avi
+touch media/series/breaking-bad/t1/1x03-y_la_bolsa_en_el_rio.avi
+mkdir media/series/breaking-bad/t2
+touch media/series/breaking-bad/t2/2x01-7_37.avi
+touch media/series/breaking-bad/t2/2x02-a_la_parrilla.avi
+touch media/series/breaking-bad/t2/2x03-picado_por_una_abeja_muerta.avi
+mkdir media/series/breaking-bad/t3
+mkdir media/series/juego-de-tronos
